@@ -9,31 +9,24 @@ body{
 }
 .fb{
     width: 500px;
-    background: rgba(0, 0, 0, 1);
-    margin: 6% auto;
+    margin: 50px auto;
     margin-bottom: 150px;
     z-index: -1;
     padding: 50px 0;
     color: #fff;
-    box-shadow: 0, 0, 20px, 2px rgba(0, 0, 0, 0.5);
 }
-.fb2{
-    width: 500px;
-    background: rgba(0, 0, 0, 1);
-    margin: 1.5% auto;
-    padding: 50px 0;
-    color: #fff;
+
+.fb .logoWrapper {
+    margin: 40px auto 20px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
 }
-.fb3{
-    width: 500px;
-    background: rgba(0, 0, 0, 1);
-    margin: 10% auto;
-    margin-bottom: 300px;
-    z-index: -1;
-    padding: 50px 0;
-    color: #fff;
-    box-shadow: 0, 0, 20px, 2px rgba(0, 0, 0, 0.5);
+
+.fb img {
+    height: 50px;
 }
+
 h1{
     text-align: center;
     margin-bottom: 40px;
