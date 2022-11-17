@@ -6,6 +6,7 @@ body{
     background-color: #000;
     background-size: cover;
     font-family: sans-serif;
+    overflow: hidden;
 }
 .fb{
     width: 500px;
@@ -14,6 +15,7 @@ body{
     z-index: -1;
     padding: 50px 0;
     color: #fff;
+    text-decoration: none;
 }
 
 .fb .logoWrapper {
@@ -26,6 +28,8 @@ body{
 .fb img {
     height: 50px;
 }
+
+
 
 h1{
     text-align: center;
@@ -42,6 +46,11 @@ h2{
     padding-top: 10px;
     padding-bottom: 5px;
 }
+
+.center {
+    text-align: center;
+}
+
 .ib input {
     width: 90%;
     border: none;
