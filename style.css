@@ -2,20 +2,23 @@
     margin: 0;
     padding: 0;
 }
-body{
+html, body{
     background-color: #000;
     background-size: cover;
     font-family: sans-serif;
     min-width: 500px;
+    max-height: 500px;
+    min-height: 500px;
 }
 .fb{
     width: 500px;
-    margin: 50px 500px;
-    margin-bottom: 150px;
-    z-index: -1;
+    margin: 40px auto;
+    /*margin-bottom: 150px;*/
+    /*z-index: -1;*/
     padding: 50px 0;
     color: #fff;
 }
+
 
 .fb .logoWrapper {
     margin: 40px auto 20px;
@@ -108,4 +111,55 @@ h2{
     text-align: center;
     color: #fff;
     margin-left: 100px;
+}
+
+@media only screen and (max-width: 800px){
+    .fb{
+        width: 400px;
+    }
+    .FPR{
+        margin-left: 65px;
+    }
+    .RM a{
+        font-size: 80%;
+        text-align: center;
+        color: #fff;
+        margin-left: 250px;
+        padding-top: -5px;
+        color: rgb(117, 117, 117);
+    }
+}
+@media only screen and (max-width: 636px){
+    .fb{
+        width: 300px;
+    }
+    .FPR{
+        margin-left: 50px;
+        font-size: 80%;
+    }
+    .RM a{
+        font-size: 80%;
+        text-align: center;
+        color: #fff;
+        margin-left: 160px;
+        padding-top: -5px;
+        color: rgb(117, 117, 117);
+    }
+}
+@media only screen and (max-width: 516px){
+    .fb{
+        width: 200px;
+    }
+    .FPR{
+        margin-left: 20px;
+        font-size: 70%;
+    }
+    .RM a{
+        font-size: 70%;
+        text-align: center;
+        color: #fff;
+        margin-left: 80px;
+        padding-top: -5px;
+        color: rgb(117, 117, 117);
+    }
 }
