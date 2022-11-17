@@ -6,7 +6,7 @@ body{
     background-color: #000;
     background-size: cover;
     font-family: sans-serif;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 .fb{
     width: 500px;
