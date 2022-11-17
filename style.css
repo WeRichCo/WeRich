@@ -88,6 +88,8 @@ h2{
 }
 .sh{
     position: absolute;
+    cursor: pointer;
+    font-size: .9em;
 }
 .lin{
     margin: 40px auto 20px;

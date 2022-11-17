@@ -5,7 +5,7 @@
     <link rel="shortcut icon" href="logo.png">
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WeRich</title>
+    <title>WeRich | Login</title>
 </head>
 <body>
 
@@ -18,16 +18,16 @@
             <input type="email" placeholder="Email" id="ema">
         </div>
         <div class = "ib">
-            <input id="passfil" type="password" placeholder="Password">
-            <span class="sh" onclick="sohd()"><p id = "sohi">show</p></span>
+            <input id="passFill" type="password" placeholder="Password">
+            <span class="sh" onclick="toggleHidePw()"><p id = "sohi">show</p></span>
         </div>
         <div class="ip">
-            <input type="checkbox" id="CHB">
+            <input type="checkbox" placeholder="Remember me" id="CHB">
         </div>
         <div class="RM">
-            <a>Remambre me</a>
+            <a>Remember me</a>
         </div>
-        <button type="submit" class = "lin" onclick="Lin()">Login</button>
+        <button type="submit" class = "lin" onclick="loginClicked()">Login</button>
         <a href="FP.html" class = "FPR">Forgot password</a>
         <a href="register.html" class = "FPR">Register</a>
     </div>
@@ -36,9 +36,9 @@
         
         LW();
         function LW(){
-            var ChackBox = document.getElementById("CHB").checked;
-            var Email = document.getElementById("ema").value;
-            var passbox = document.getElementById("passfil").value;
+            var checkBox = document.getElementById("CHB").checked;
+            var email = document.getElementById("ema").value;
+            var passBox = document.getElementById("passFill").value;
 
             if(localStorage.getItem('fD9*A8GW924AlEM8ap9a7GWl') != null && localStorage.getItem('Fgp9DGT*F68*4PWle3*Fpy8u') != null)
             {
@@ -46,36 +46,35 @@
             }
         }
         
-        function Lin()
+        function loginClicked()
         {
-            var ChackBox = document.getElementById("CHB").checked;
+            var checkBox = document.getElementById("CHB").checked;
             var Email = document.getElementById("ema").value;
-            var passbox = document.getElementById("passfil").value;
-            if(Email != '' && passbox != '')
+            var passBox = document.getElementById("passFill").value;
+            if(Email != '' && passBox != '')
             {
-                console.log(ChackBox+ " " + Email + " " + passbox);
-                if (ChackBox === true)
+                console.log(checkBox+ " " + Email + " " + passBox);
+                if (checkBox === true)
                 {
-                    console.log("sssss")
                     localStorage.setItem('fD9*A8GW924AlEM8ap9a7GWl', Email) // Email
-                    localStorage.setItem('Fgp9DGT*F68*4PWle3*Fpy8u', passbox) //Password
+                    localStorage.setItem('Fgp9DGT*F68*4PWle3*Fpy8u', passBox) //Password
                 }
             }
         }
-        function sohd()
+        function toggleHidePw()
         {
-            var inpbox = document.getElementById("sohi");
-            var passbox = document.getElementById("passfil");
+            var inbox = document.getElementById("sohi");
+            var passBox = document.getElementById("passFill");
 
-            if (passbox.type === "password")
+            if (passBox.type === "password")
             {
-                inpbox.innerHTML = "hide"
-                passbox.type = "text"
+                inbox.innerHTML = "hide"
+                passBox.type = "text"
             }
             else
             {
-                inpbox.innerHTML = "show"
-                passbox.type = "password"
+                inbox.innerHTML = "show"
+                passBox.type = "password"
             }
         }
     </script>
