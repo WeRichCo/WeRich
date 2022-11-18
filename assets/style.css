@@ -7,19 +7,19 @@ html, body{
     background-size: cover;
     font-family: sans-serif;
     overflow-x: hidden;
+    width: 100%;
+    height: 100%;
 }
 .formbox{
-    width: 40rem;
-    margin: 3.7% auto;
-    /*margin-bottom: 150px;*/
-    /*z-index: -1;*/
-    padding: 5% 0;
+    top: 50%;
+    left: 50%;
+    width: 40em;
+    height: 40em;
+    margin-top: -15em;
+    margin-left: -20em;
+    position: fixed;
     color: #fff;
-    text-decoration: none;
-    flex-direction: column;
 }
-
-
 .formbox .logoWrapper {
     margin: 40px auto 20px;
     width: 80%;
@@ -81,7 +81,7 @@ h2{
     background: black;
 }
 .RM{
-    margin-top: -3.08%;
+    margin-top: -3.15%;
 }
 .RM a{
     font-size: 80%;
