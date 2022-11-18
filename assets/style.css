@@ -9,11 +9,11 @@ html, body{
     overflow-x: hidden;
 }
 .formbox{
-    width: 40%;
-    margin: 40px auto;
+    width: 40rem;
+    margin: 3.7% auto;
     /*margin-bottom: 150px;*/
     /*z-index: -1;*/
-    padding: 50px 0;
+    padding: 5% 0;
     color: #fff;
     text-decoration: none;
     flex-direction: column;
@@ -32,14 +32,14 @@ html, body{
 }
 h2{
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 7%;
 }
 .ib{
-    margin: 31px auto;
+    margin: 5% auto;
     width: 80%;
     border-bottom: 2px solid rgb(67, 67, 67);
-    padding-top: 10px;
-    padding-bottom: 5px;
+    padding-top: 1rem;
+    padding-bottom: 0.25rem;
 }
 
 .center {
@@ -81,13 +81,13 @@ h2{
     background: black;
 }
 .RM{
-    margin-top: -4%;
+    margin-top: -3.08%;
 }
 .RM a{
     font-size: 80%;
     text-align: center;
     color: #fff;
-    margin-left: 69%;
+    margin-left: 29rem;
     color: rgb(117, 117, 117);
 }
 .sh{
@@ -96,11 +96,11 @@ h2{
     font-size: .9em;
 }
 .lin{
-    margin: 40px auto 20px;
+    margin: 5% auto 2.5%;
     width: 80%;
     display: block;
     outline: none;
-    padding: 10px 0;
+    padding: 0.55rem 0;
     border: 2px solid #fff;
     cursor: pointer;
     background: transparent;
@@ -110,5 +110,5 @@ h2{
 .FPR{
     text-align: center;
     color: #fff;
-    margin-left: 100px;
+    margin-left: 22%;
 }
