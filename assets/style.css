@@ -119,9 +119,44 @@ h2{
         margin-left: -15em;
     }
     .RM{
-        margin-top: -3.15%;
+        margin-top: -4.1%;
     }
     .RM a{
         margin-left: 20rem;
+    }
+    .FPR{
+        margin-left: 19%;
+    }
+}
+@media only screen and (max-width: 432px){
+    .formbox{
+        width: 25em;
+        height: 25em;
+        margin-left: -12.5em;
+    }
+    .RM{
+        margin-top: -5%;
+    }
+    .RM a{
+        margin-left: 16rem;
+    }
+    .FPR{
+        margin-left: 17%;
+    }
+}
+@media only screen and (max-width: 340px){
+    .formbox{
+        width: 20em;
+        height: 20em;
+        margin-left: -10em;
+    }
+    .RM{
+        margin-top: -6%;
+    }
+    .RM a{
+        margin-left: 11.5rem;
+    }
+    .FPR{
+        margin-left: 14%;
     }
 }
