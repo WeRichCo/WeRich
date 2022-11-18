@@ -16,6 +16,7 @@ html, body{
     padding: 50px 0;
     color: #fff;
     text-decoration: none;
+    flex-direction: column;
 }
 
 
@@ -137,6 +138,23 @@ h2{
 }
 @media only screen and (max-width: 636px){
     .fb{
+        width: 400px;
+    }
+    .FPR{
+        margin-left: 80px;
+        font-size: 80%;
+    }
+    .RM a{
+        font-size: 70%;
+        text-align: center;
+        color: #fff;
+        margin-left: 250px;
+        padding-top: -10px;
+        color: rgb(117, 117, 117);
+    }
+}
+@media only screen and (max-width: 410px){
+    .fb{
         width: 300px;
     }
     .FPR{
@@ -144,28 +162,11 @@ h2{
         font-size: 80%;
     }
     .RM a{
-        font-size: 80%;
-        text-align: center;
-        color: #fff;
-        margin-left: 160px;
-        padding-top: -5px;
-        color: rgb(117, 117, 117);
-    }
-}
-@media only screen and (max-width: 516px){
-    .fb{
-        width: 200px;
-    }
-    .FPR{
-        margin-left: 20px;
-        font-size: 70%;
-    }
-    .RM a{
         font-size: 70%;
         text-align: center;
         color: #fff;
-        margin-left: 80px;
-        padding-top: -5px;
+        margin-left: 180px;
+        padding-top: -10px;
         color: rgb(117, 117, 117);
     }
 }
