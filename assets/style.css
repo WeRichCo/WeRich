@@ -7,40 +7,48 @@ body{
     background-size: cover;
     font-family: sans-serif;
     overflow-x: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
 }
 .fb{
-    width: 30rem;
+    width: 500px;
+    margin: 50px auto;
+    margin-bottom: 150px;
+    z-index: -1;
+    padding: 50px 0;
     color: #fff;
-    background-color: #000;
+    text-decoration: none;
 }
 
-
 .fb .logoWrapper {
-    margin: 2rem auto 1rem;
+    margin: 40px auto 20px;
     width: 80%;
     display: flex;
     justify-content: center;
 }
 
 .fb img {
-    height: 2rem;
+    height: 50px;
 }
 
+
+
+h1{
+    text-align: center;
+    margin-bottom: 40px;
+}
 h2{
     text-align: center;
-    margin-bottom: 3rem;
+    margin-bottom: 40px;
 }
-
 .ib{
     margin: 31px auto;
     width: 80%;
     border-bottom: 2px solid rgb(67, 67, 67);
-    padding-top: 1rem;
-    padding-bottom: 0.25rem;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.center {
+    text-align: center;
 }
 
 .ib input {
@@ -58,19 +66,14 @@ h2{
     margin: 0px auto;
     width: 80%;
     margin-top: -4%;
-    display: flex;
-    justify-content: flex-end;
 }
 .ip input {
+    width: 100%;
     border: none;
     outline: none;
     background: transparent;
+    margin-left: 48%;
     color: #fff;
-}
-.ip a{
-    font-size: 80%;
-    color: rgb(117, 117, 117);
-    padding-right: 0.25rem;
 }
 .ib select {
     border: none;
@@ -81,6 +84,16 @@ h2{
 }
 .ib select option {
     background: black;
+}
+.RM{
+    margin-top: -4%;
+}
+.RM a{
+    font-size: 80%;
+    text-align: center;
+    color: #fff;
+    margin-left: 69%;
+    color: rgb(117, 117, 117);
 }
 .sh{
     position: absolute;
@@ -100,10 +113,7 @@ h2{
     font-size: 16px;
 }
 .FPR{
+    text-align: center;
     color: #fff;
-}
-.ForPasReg{
-    display: flex;
-    justify-content: center;
-    gap: 30%;
+    margin-left: 100px;
 }
