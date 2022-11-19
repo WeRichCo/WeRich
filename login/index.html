@@ -8,7 +8,8 @@
     <title>WeRich | Login</title>
 </head>
 <body>
-    <div class = "formbox">
+
+    <div class = "fb">
         <div class="logoWrapper">
             <img src="../assets/animWip.gif" alt="weRichAnim">
         </div>
@@ -21,14 +22,14 @@
             <span class="sh" onclick="toggleHidePw()"><p id = "sohi">show</p></span>
         </div>
         <div class="ip">
+            <a>Remember me</a>
             <input type="checkbox" placeholder="Remember me" id="CHB">
         </div>
-        <div class="RM">
-            <a>Remember me</a>
-        </div>
         <button type="submit" class = "lin" onclick="loginClicked()">Login</button>
-        <a href="/password/reset/" class = "FPR">Forgot password</a>
-        <a href="/register/" class = "FPR">Register</a>
+        <div class="ForPasReg">
+            <a href="../password/reset/" class = "FPR">Forgot password</a>
+            <a href="../register/" class = "FPR">Register</a>
+        </div>
     </div>
 
     <script>   
