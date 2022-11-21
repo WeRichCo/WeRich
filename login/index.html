@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="/assets/logo.png">
-    <link rel="stylesheet" href="/assets/style.css">
+    <link rel="shortcut icon" href="../assets/logo.png">
+    <link rel="stylesheet" href="../assets/style.css">
     <title>WeRich | Login</title>
 </head>
 <body>
 
     <div class = "fb">
         <div class="logoWrapper">
-            <img src="/assets/animWip.gif" alt="weRichAnim">
+            <img src="../assets/animWip.gif" alt="weRichAnim">
         </div>
         <h2>Login</h2>
         <div class = "ib">
@@ -19,17 +19,17 @@
         </div>
         <div class = "ib">
             <input id="passFill" type="password" placeholder="Password">
-            <span class="sh" onclick="toggleHidePw()"><p id = "sohi">show</p></span>
+            <!--<span class="sh" onclick="toggleHidePw()"><p id = "sohi">show</p></span>-->
         </div>
         <div class="ip">
+            <a>Remember me</a>
             <input type="checkbox" placeholder="Remember me" id="CHB">
         </div>
-        <div class="RM">
-            <a>Remember me</a>
-        </div>
         <button type="submit" class = "lin" onclick="loginClicked()">Login</button>
-        <a href="/password/reset/" class = "FPR">Forgot password</a>
-        <a href="/register/" class = "FPR">Register</a>
+        <div class="ForPasReg">
+            <a href="../password/reset/" class = "FPR">Forgot password</a>
+            <a href="../register/" class = "FPR">Register</a>
+        </div>
     </div>
 
     <script>   

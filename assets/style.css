@@ -1,62 +1,68 @@
+:root{
+    --bg: #e0e0e0;
+    --Wh1: #bebebe;
+    --W2: #ffffff;
+}
 *{
     margin: 0;
     padding: 0;
 }
 body{
-    background-color: #000;
+    background-color: var(--bg);
     background-size: cover;
     font-family: sans-serif;
     overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 .fb{
-    width: 500px;
-    margin: 50px auto;
-    margin-bottom: 150px;
-    z-index: -1;
-    padding: 50px 0;
+    width: 30rem;
     color: #fff;
-    text-decoration: none;
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow:  32px 32px 64px #bebebe,
+                -32px -32px 64px #ffffff;
 }
 
+
 .fb .logoWrapper {
-    margin: 40px auto 20px;
+    margin: 2rem auto 1rem;
     width: 80%;
     display: flex;
     justify-content: center;
 }
 
 .fb img {
-    height: 50px;
+    height: 2rem;
 }
 
-
-
-h1{
-    text-align: center;
-    margin-bottom: 40px;
-}
 h2{
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 3rem;
+    color: black;
 }
+
 .ib{
     margin: 31px auto;
     width: 80%;
-    border-bottom: 2px solid rgb(67, 67, 67);
-    padding-top: 10px;
-    padding-bottom: 5px;
-}
-
-.center {
-    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 0.25rem;
 }
 
 .ib input {
-    width: 90%;
+    width: 97%;
+    height: 2rem;
+    padding-left: 1.4rem;
     border: none;
-    outline: none;
-    background: transparent;
-    color: #fff;
+    border-radius: 1rem;
+    font-size: 0.9rem;
+    box-shadow: inset .2rem .2rem .5rem var(--Wh1), 
+                inset -.2rem -.2rem .5rem var(--W2);
+    background: none;
+    font-family: inherit;
+    color: black;
 }
 .ib label {
     font-size: 87%;
@@ -66,14 +72,21 @@ h2{
     margin: 0px auto;
     width: 80%;
     margin-top: -4%;
+    display: flex;
+    justify-content: flex-end;
 }
 .ip input {
-    width: 100%;
-    border: none;
-    outline: none;
-    background: transparent;
-    margin-left: 48%;
-    color: #fff;
+    box-shadow: .4rem .4rem .6rem var(--Wh1), 
+            -.3rem -.3rem .5rem var(--W2);
+    cursor: pointer;
+    border-radius: .8rem;
+    width: 5%;
+    height: 1rem;
+}
+.ip a{
+    font-size: 80%;
+    color: rgb(117, 117, 117);
+    padding-right: 0.25rem;
 }
 .ib select {
     border: none;
@@ -85,35 +98,33 @@ h2{
 .ib select option {
     background: black;
 }
-.RM{
-    margin-top: -4%;
-}
-.RM a{
-    font-size: 80%;
-    text-align: center;
-    color: #fff;
-    margin-left: 69%;
-    color: rgb(117, 117, 117);
-}
 .sh{
     position: absolute;
     cursor: pointer;
-    font-size: .9em;
+    font-size: 0.9em;
+    color: black;
+    padding-right: 0.25rem;
 }
 .lin{
     margin: 40px auto 20px;
-    width: 80%;
     display: block;
-    outline: none;
     padding: 10px 0;
-    border: 2px solid #fff;
+    width: 75%;
+    height: 2rem;
+    border-radius: 1rem;
+    border: var(--Wh1);
+    box-shadow:inset .2rem .2rem 1rem var(--W2), 
+                inset -.2rem -.2rem 1rem var(--Wh1),
+                .3rem .3rem .6rem var(--Wh1), 
+                -.2rem -.2rem .5rem var(--W2);
     cursor: pointer;
-    background: transparent;
-    color: #fff;
-    font-size: 16px;
 }
 .FPR{
-    text-align: center;
-    color: #fff;
-    margin-left: 100px;
+    color: #000;
+}
+.ForPasReg{
+    display: flex;
+    justify-content: center;
+    gap: 30%;
+    padding-bottom: 1.25rem;
 }
