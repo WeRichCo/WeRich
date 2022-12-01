@@ -17,15 +17,20 @@ body{
     color: #fff;
     background-color: #000;
 }
-
-
 .fb .logoWrapper {
     margin: 2rem auto 1rem;
     width: 80%;
     display: flex;
     justify-content: center;
 }
-
+.fb .ArrowWrapper {
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -2rem;
+}
 .fb img {
     height: 2rem;
 }

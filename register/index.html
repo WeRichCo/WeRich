@@ -8,36 +8,44 @@
     <title>WeRich | Register</title>
 </head>
 <body>
-    <div class = "fb">
-        <div class="logoWrapper">
-            <img src="/assets/animWip.gif" alt="weRichAnim">
+        <div class = "fb">
+            <div class="logoWrapper">
+                <img src="/assets/animWip.gif" alt="weRichAnim">
+            </div>
+            <div class="ArrowWrapper">
+                <a href="../login/">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M11 5L4 12L11 19" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M4 12H20" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>      
+                </a>              
+            </div>        
+            <h2>Register</h2>
+            <div class = "ib">
+                <input type="text" placeholder="Full name">
+            </div>
+            <div class = "ib">
+                <input type="text" placeholder="User Name">
+            </div>
+            <div class = "ib center">
+                <label for="day">Day:</label>
+                <select name="day" id="day"></select>
+                <label for="month">Month:</label>
+                <select name="month" id="month"></select>
+                <label for="year">Year:</label>
+                <select name="year" id="year"></select>
+            </div>
+            <div class = "ib">
+                <input type="email" placeholder="Email">
+            </div>
+            <div class = "ib">
+                <input type="password" placeholder="Password">
+            </div>
+            <div class = "ib">
+                <input type="password" placeholder="Password Again">
+            </div>
+            <button type="button" class = "lin">Continue</button>
         </div>
-        <h2>Register</h2>
-        <div class = "ib">
-            <input type="text" placeholder="Full name">
-        </div>
-        <div class = "ib">
-            <input type="text" placeholder="User Name">
-        </div>
-        <div class = "ib center">
-            <label for="day">Day:</label>
-            <select name="day" id="day"></select>
-            <label for="month">Month:</label>
-            <select name="month" id="month"></select>
-            <label for="year">Year:</label>
-            <select name="year" id="year"></select>
-        </div>
-        <div class = "ib">
-            <input type="email" placeholder="Email">
-        </div>
-        <div class = "ib">
-            <input type="password" placeholder="Password">
-        </div>
-        <div class = "ib">
-            <input type="password" placeholder="Password Again">
-        </div>
-        <button type="button" class = "lin">Continue</button>
-    </div>
     <script>
         const YS = document.getElementById("year");
         const MS = document.getElementById("month");
@@ -113,6 +121,6 @@
     }
     DS.onchange = function() {
         pD = DS.value;
-}
+    }
     </script>
 </body>
